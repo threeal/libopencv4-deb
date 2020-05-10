@@ -30,9 +30,9 @@ It was created to accomodate the library packaging using the debian packaging sy
   $ mkdir build
   $ cd build
   ```
-- Configure the Makefile rules  with `/usr` as the install prefix.
+- Configure the Makefile rules with the following options.
   ```bash
-  $ cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+  $ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr ..
   ```
 - Build the library.
   ```bash

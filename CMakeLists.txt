@@ -6,9 +6,9 @@ set(CPACK_GENERATOR "DEB")
 set(CPACK_DEBIAN_PACKAGE_NAME "libopencv4-dev")
 set(CPACK_DEBIAN_FILE_NAME DEB-DEFAULT)
 set(CPACK_DEBIAN_PACKAGE_VERSION 4.3.0)
-set(CPACK_DEBIAN_PACKAGE_RELEASE 1)
+set(CPACK_DEBIAN_PACKAGE_RELEASE 2)
 set(CPACK_DEBIAN_PACKAGE_DEPENDS
-  "pkg-config, libc6 (>= 2.27)"
+  "pkg-config, libc6 (>= 2.27), libjpeg-dev, libtiff-dev"
 )
 set(CPACK_DEBIAN_PACKAGE_CONFLICTS "libopencv-dev")
 set(CPACK_DEBIAN_PACKAGE_REPLACES "libopencv-dev")

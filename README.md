@@ -17,6 +17,7 @@ It was created to accomodate the library packaging using the debian packaging sy
   $ cd opencv
   $ git pull
   $ git checkout <latest-release>
+  ```
 - Change some variables value as follow:
   - Change the value of `CPACK_DEBIAN_PACKAGE_VERSION` variable to match with the source code
       release version.
